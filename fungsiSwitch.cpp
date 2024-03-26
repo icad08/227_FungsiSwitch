@@ -13,7 +13,7 @@ int penjumlahan (int a, int b){
     return a + b
 }
 
-int pengurangan (int a, int b) {
+int pengurangan (int a, int b){
     return  a - b;
 }
 
@@ -24,6 +24,21 @@ float pembagian (int a, int b){
     return a / b;
 }
 int main (){
+    
+int pilihan;
 
+do{
+    cout << "kalkulator sederhana" << endl;
+    cout << "=====================" << endl;
+    cout << "pemjumlahan" << endl;
+    cout << "pengurangan" << endl;
+    cout << "perkalian" << endl;
+    cout << "pembagian" << endl;
+    cout << "keluar" << endl;
+    cout << "=====================" << endl;
+    cout << "masukan menu pilihan:" ;
+    cin >> pilihan;
+
+} 
 
 }
