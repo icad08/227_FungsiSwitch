@@ -10,7 +10,7 @@ void inputData(){
 }
 
 int penjumlahan (int a, int b){
-    return a + b
+    return a + b;
 }
 
 int pengurangan (int a, int b){
@@ -45,7 +45,7 @@ do{
 
 case 1: 
     inputData();
-    cout << "Hasil Penjumlahan = "<< pemjumlahan (bilangan1,  bilangan2) << endl;
+    cout << "Hasil Penjumlahan = "<< penjumlahan (bilangan1,  bilangan2) << endl;
     break;
 
 case 2 :  
@@ -67,7 +67,13 @@ break;
 default : 
     cout << "pilhan tidak ada" << endl;
     break;
-    
+
+    system ("pause");
+    system ("CLS");
+
+    while (pilihan != 5);
+
+    }
 
 } 
 
