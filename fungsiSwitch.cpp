@@ -39,6 +39,36 @@ do{
     cout << "masukan menu pilihan:" ;
     cin >> pilihan;
 
+    switch (pilihan) {
+
+    
+
+case 1: 
+    inputData();
+    cout << "Hasil Penjumlahan = "<< pemjumlahan (bilangan1,  bilangan2) << endl;
+    break;
+
+case 2 :  
+    inputData();
+    cout << "Hasil Pengurangan = " << pengurangan(bilangan1, bilangan2)  << endl;
+    break;
+
+case 3 :  
+    cout << "Hasil Perkalian = " << perkalian(bilangan1, bilangan2)  << endl;
+    break;
+
+case 4 :
+    inputData ();
+    cout << "hasil pembagian = " << pembagian (bilangan1, bilangan2) << endl ;
+    break;
+
+case 5:
+break;
+default : 
+    cout << "pilhan tidak ada" << endl;
+    break;
+    
+
 } 
 
 }
